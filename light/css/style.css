@@ -342,8 +342,8 @@ label.error{
 }
 
 .btn-gray{
-  background-color: #f2f2f2;
-  color: #a7a7a7;
+  background-color: #BBC612;
+  color: #ffffff;
 }
 
 .btn-shadow-1{
@@ -354,7 +354,99 @@ label.error{
   box-shadow:0 15px 34px #a0a838;
 }
 
+.btn-1{
+  font-family: 'montserratsemibold';
+  position: relative;
+  display: inline-block;
+  border:2em solid #ffffff;
+  border-radius: 30px;
+  padding:1.1em 2.2em 1.05em;
+  font-size: 1em;
+  color:#a2ad0f;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #4f522b;
+  border: 0;
+  -webkit-transition: all .3s ease-out!important;
+          transition: all .3s ease-out!important;
+}
 
+.btn-1:hover,
+.btn-1:focus{
+  color: #fff;
+  background-color: #98a20f;
+  -webkit-box-shadow:none;
+  box-shadow: none;
+  outline: none!important;
+}
+
+.btn-1 .icon-next{
+  position: relative;
+  top:-0.1em;
+  margin-left: 0.6em;
+  vertical-align: middle;
+}
+
+.btn-gray-1{
+  background-color: #899212;
+  color: #ffffff;
+}
+
+.btn-shadow-1-1{
+  box-shadow:0 15px 34px rgba(0,0,0,0.18);
+}
+
+.btn-shadow-2-1{
+  box-shadow:0 15px 34px #7a802b;
+}
+
+.btn-2{
+  font-family: 'montserratsemibold';
+  position: relative;
+  display: inline-block;
+  border:0.2em solid #000000;
+  border-radius: 30px;
+  padding:1.1em 2.2em 1.05em;
+  font-size: 1em;
+  color:#000000;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #000000;
+  border:0;
+  -webkit-transition: all .3s ease-out!important;
+          transition: all .3s ease-out!important;
+}
+
+.btn-2:hover,
+.btn-2:focus{
+  color: #ffffff;
+  background-color: #4c4b4b;
+  -webkit-box-shadow:none;
+  box-shadow: none;
+  outline: none!important;
+}
+
+.btn-2 .icon-next{
+  position: relative;
+  top:-0.1em;
+  margin-left: 0.6em;
+  vertical-align: middle;
+}
+
+.btn-gray-2{
+  background-color: #010101;
+  color: #ffffff;
+}
+
+.btn-shadow-1-2{
+  box-shadow:0 15px 34px rgba(0,0,0,0.18);
+}
+
+.btn-shadow-2-2{
+  box-shadow:0 15px 34px #000000;
+}
 
 /* 1.5 Icons */
 
@@ -736,7 +828,7 @@ label.error{
   height: 5vmin;
   width: 1px;
   margin:15px auto 0;
-  background-color:#c5c4c2;
+  background-color:#ffffff;
 }
 
 .vertical-panel-title{
@@ -772,11 +864,11 @@ label.error{
 
 .social-list .fa{
   font-size: 2.4vmin;
-  color: #c5c4c2;
+  color: #ffffff;
 }
 
 .social-list .fa:hover{
-  color:#BBC612;
+  color:#000000;
   text-decoration: none;
 }
 
