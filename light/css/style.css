@@ -326,9 +326,7 @@ label.error {
     vertical-align: middle;
 }
 
-.btn-gray {
-    background-color: #f2f2f2;
-    color: #a7a7a7;
+
 }
 
 .btn-shadow-1 {
@@ -339,6 +337,23 @@ label.error {
     box-shadow: 0 15px 34px #a0a838;
 }
 
+.btn-1{
+  font-family: 'montserratsemibold';
+  position: relative;
+  display: inline-block;
+  border:2em solid #ffffff;
+  border-radius: 30px;
+  padding:1.1em 2.2em 1.05em;
+  font-size: 1em;
+  color:#a2ad0f;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #4f522b;
+  border: 0;
+  -webkit-transition: all .3s ease-out!important;
+          transition: all .3s ease-out!important;
+}
 
 /* 1.5 Icons */
 
@@ -709,12 +724,6 @@ label.error {
     margin-bottom: 3.5vmin;
 }
 
-.vertical-panel-info .line {
-    height: 5vmin;
-    width: 1px;
-    margin: 15px auto 0;
-    background-color: #c5c4c2;
-}
 
 .vertical-panel-title {
     font-family: 'montserratsemibold';
@@ -745,16 +754,6 @@ label.error {
 
 .social-list li {
     margin-top: 3.8vmin;
-}
-
-.social-list .fa {
-    font-size: 2.4vmin;
-    color: #c5c4c2;
-}
-
-.social-list .fa:hover {
-    color: #BBC612;
-    text-decoration: none;
 }
 
 
