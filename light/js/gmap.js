@@ -1,4 +1,4 @@
-var mapLocation = new google.maps.LatLng(-37.823534, 144.975617); //change coordinates here
+var mapLocation = new google.maps.LatLng(19.463143338848607, -99.2186300444527); //change coordinates here
 var marker;
 var map;
 
@@ -183,8 +183,8 @@ function initialize() {
     //change address details here
     var contentString = '<div class="map-info">' 
     + '<div class="map-title">' 
-    + '<h3>go<span class="text-primary">.</span>arch</h3></div>' 
-    + '<div class="map-address-row"><i class="fa fa-map-marker"></i><span class="text">USA, New York<br> 648 Ivah Street Apt. 375</span></div><div class="map-address-row"><i class="fa fa-phone"></i><span class="text">+0 543 554 44-25</span></div><div class="map-address-row"><span class="map-email"><i class="fa fa-envelope"></i><span class="text">go.arch@mail.com</span></span>' 
+    + '<h3>DICOISA<span class="text-primary"></span></h3></div>' 
+    + '<div class="map-address-row"><i class="fa fa-map-marker"></i><span class="text">Av. San Francisco, No. 12,<br> Col. San Francisco Cuautlalpan,<br>Naucalpan Edo. de México.</span></div><div class="map-address-row"><i class="fa fa-phone"></i><span class="text">+0 543 554 44-25</span></div><div class="map-address-row"><span class="map-email"><i class="fa fa-envelope"></i><span class="text">info@dicoisa.com.mx</span></span>' 
     + '</div>';
     
     
