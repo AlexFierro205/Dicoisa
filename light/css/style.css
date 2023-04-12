@@ -827,6 +827,30 @@ label.error {
     background-color: #BBC612
 }
 
+/* sobre */
+.vertical-panel-sobre{
+    z-index: 3;
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 20vmin;
+    height: 55vmin;
+    padding: 4.8vmin 2em 4.8vmin;
+    background-color: #BBC612;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 15px;
+  }
+  
+  .vertical-panel-contacto{
+    z-index: 3;
+    height: 10000px;
+    background-color: #BBC612
+  }
+  
+
 .vertical-panel-content {
     z-index: 4;
 }
