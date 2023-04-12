@@ -844,7 +844,7 @@ label.error {
     border-radius: 15px;
   }
   
-  .vertical-panel-contacto{
+  .vertical-panel-sobren{
     z-index: 3;
     height: 10000px;
     background-color: #BBC612
@@ -2574,7 +2574,7 @@ img.mfp-img {
     }
 }
 
-|
+
 /* 11.4 Max height 480px  */
 
 @media (max-height: 480px) {
