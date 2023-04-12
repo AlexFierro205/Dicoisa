@@ -695,6 +695,38 @@ label.error {
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
+/* contactos*/
+.brand-panel-sobre{
+    position: absolute;
+    z-index: 4;
+    left: 0;
+    top:0;
+    width: 39.47vmin;
+    height: 20vmin;
+    padding: 4.8vmin 2em 4.8vmin;
+    background-color: #BBC612;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 15px;
+  }
+  
+  .brand-panel-sobren{
+    position: absolute;
+    z-index: 4;
+    left: 0;
+    top:0;
+    width: 10vmin;
+    height: 15vmin;
+    padding: 4.8vmin 2em 4.8vmin;
+    background-color: #BBC612;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
 
 .brand {
     display: inline-block;
