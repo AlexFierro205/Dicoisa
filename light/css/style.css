@@ -695,7 +695,7 @@ label.error {
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
-/* contactos*/
+/*sobre*/
 .brand-panel-sobre{
     position: absolute;
     z-index: 4;
@@ -882,6 +882,27 @@ label.error {
         display: none;
     }
 }
+
+/* sobre */
+.social-list-sobre{
+    margin-bottom: 3.5vmin;
+    
+  }
+  
+  .social-list-sobre li{
+    margin-top: 3.8vmin;
+  }
+  
+  .social-list-sobre .fa{
+    font-size: 2.4vmin;
+    color: #ffffff;
+  }
+  
+  .social-list-sobre .fa:hover{
+    color:#3d3d3d;
+    text-decoration: none;
+  }
+  
 
 .social-list {
     margin-bottom: 3.5vmin;
