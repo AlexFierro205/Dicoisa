@@ -593,6 +593,10 @@ label.error {
     color: #ffffff;
 }
 
+.text-primary2 {
+    color: #960808;
+}
+
 .page-lines {
     position: absolute;
     z-index: -1;
