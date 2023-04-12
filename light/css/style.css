@@ -928,24 +928,24 @@ label.error {
 
 /* 2.3 Navbar Desctop */
 
-.navbar-desctop{
+.navbar-desctop {
     display: none;
     position: absolute;
     z-index: 2;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     width: 100%;
-    padding:5.9vmin 0 0;
-  }
-  
-  .navbar-desctop .brand{
+    padding: 5.9vmin 0 0;
+}
+
+.navbar-desctop .brand {
     display: none;
     position: relative;
-    top:-0.22em;
+    top: -0.22em;
     font-size: 1.6em;
-  }
-  
-  .navbar-desctop-menu{
+}
+
+.navbar-desctop-menu {
     float: right;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
@@ -953,84 +953,79 @@ label.error {
     letter-spacing: 0.32em;
     text-transform: uppercase;
     margin-bottom: 0;
-  }
-  
-  .navbar-desctop-menu li{
+}
+
+.navbar-desctop-menu li {
     position: relative;
     -webkit-perspective: 2000px;
     perspective: 2000px;
-  }
-  
-  .navbar-desctop-menu li a {
+}
+
+.navbar-desctop-menu li a {
     display: block;
     text-decoration: none;
     color: #fff;
-  }
-  
-  .navbar-desctop-menu li a:hover,
-  .navbar-desctop-menu .active > a{
-    color:  #BBC612;
-  }
-  
-  .navbar-desctop-menu  > li{
+}
+
+.navbar-desctop-menu li a:hover,
+.navbar-desctop-menu .active>a {
+    color: #BBC612;
+}
+
+.navbar-desctop-menu>li {
     float: left;
     margin-left: 5.1em;
-  }
-  
-  .navbar-desctop-menu > li > a{
+}
+
+.navbar-desctop-menu>li>a {
     color: #fff;
     background-color: transparent;
     margin-bottom: 1.5em;
-  }
-  
-  .navbar-desctop-menu li ul{
+}
+
+.navbar-desctop-menu li ul {
     position: absolute;
     z-index: 10;
     left: 100%;
-    top:60%;
+    top: 60%;
     visibility: hidden;
     min-width: 200px;
     opacity: 0;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
-    background: rgba(255,255,255,0.95);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.95);
     -webkit-transition: all .3s ease-out;
     -moz-transition: all .3s ease-out;
     transition: all .3s ease-out;
-  }
-  
-  .navbar-desctop-menu > li > ul{
+}
+
+.navbar-desctop-menu>li>ul {
     left: -20px;
     margin-top: 0;
-  }
-  
-  .navbar-desctop-menu li:hover > ul{
-    top:0;
+}
+
+.navbar-desctop-menu li:hover>ul {
+    top: 0;
     visibility: visible;
     opacity: 1;
-  }
-  
-  .navbar-desctop-menu > li:hover > ul{
-    top:100%;
-  }
-  
-  .navbar-desctop-menu li li{
-    border-bottom: 1px solid rgba(0,0,0,0.05);
-  }
-  
-  .navbar-desctop-menu li li:last-child{
+}
+
+.navbar-desctop-menu>li:hover>ul {
+    top: 100%;
+}
+
+.navbar-desctop-menu li li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.navbar-desctop-menu li li:last-child {
     border-bottom: 0;
-  }
-  
-  .navbar-desctop-menu li li a{
+}
+
+.navbar-desctop-menu li li a {
     color: #000;
     padding: 12px 20px 10px;
-  }
-  
-  .navbar-desctop-menu li li b{
-    color: #000;
-    padding: 12px 40px 10px;
-  }
-  
+}
+
 
 /* 2.4 Navbar Desctop Affix */
 
