@@ -590,10 +590,12 @@ label.error {
 }
 
 .text-primary {
-    color:  #899212;
+    color: #ffffff;
 }
 
-
+.text-primary2 {
+    color: #960808;
+}
 
 .page-lines {
     position: absolute;
