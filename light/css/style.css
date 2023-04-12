@@ -1381,9 +1381,8 @@ label.error {
 /* ------------------------------------------------------------------------------- */
 
 .bg-about {
-    background: url(../img/bg/prueba.jpg) 50% 0 no-repeat;
+    background: url(../img/bg/about.jpg) 50% 0 no-repeat;
     background-size: cover;
-    padding-bottom: 398px;
 }
 
 .entry {
