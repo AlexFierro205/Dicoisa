@@ -643,6 +643,12 @@ label.error {
     margin-left: 0.32em;
 }
 
+.section-title-experience {
+    text-align: center;
+    margin: 0;
+    margin-left: 0.32em;
+}
+
 .fade-title-left,
 .fade-title-right {
     font-family: 'Montserrat', sans-serif;
