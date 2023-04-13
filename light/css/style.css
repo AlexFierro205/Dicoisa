@@ -1403,6 +1403,12 @@ label.error {
 .entry-text {
     font-size: 1.6em;
     line-height: 1.6;
+    text-align: justify;
+}
+
+.jus-text {
+    
+    text-align: justify;
 }
 
 .about .fade-title-left {
@@ -1426,6 +1432,20 @@ label.error {
     display: block;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
+/*imagen sombra*/
+
+.imagen{
+    margin: 30px 150px 30px;
+    width: 650px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.10);
+}
+.imagen2{
+    margin: 30px 370px 30px;
+    width: 350px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.10);
+}
+
+
 
 
 /* 4.1 Services */
