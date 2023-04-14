@@ -1182,9 +1182,10 @@ label.error{
   opacity: 0.6;
 }
 
+/*Contactos*/
 .main-projects,
 .main-contacts{
-  padding: 34.2vmin 0 34vmin;
+  padding: 36vmin 0 34vmin;
 }
 
 .main-project{
