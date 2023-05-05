@@ -305,8 +305,6 @@ label.error{
 
 /* 1.4 Buttons */
 
-
-
 .btn{
   font-family: 'montserratsemibold';
   position: relative;
@@ -325,10 +323,55 @@ label.error{
           transition: all .3s ease-out!important;
 }
 
+.btn-1{
+  font-family: 'montserratsemibold';
+  position: relative;
+  display: inline-block;
+  border:0.2em solid #BBC612;
+  border-radius: 30px;
+  padding:1.1em 2.2em 1.05em;
+  font-size: 0.875em;
+  color:#fff;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #BBC612;
+  border:0;
+  -webkit-transition: all .3s ease-out!important;
+          transition: all .3s ease-out!important;
+}
+
+.btn-2{
+  font-family: 'montserratsemibold';
+  position: relative;
+  display: inline-block;
+  border:0.2em solid #090904;
+  border-radius: 30px;
+  padding:1.1em 2.2em 1.05em;
+  font-size: 0.875em;
+  color:#fff;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #040403;
+  border:0;
+  -webkit-transition: all .3s ease-out!important;
+          transition: all .3s ease-out!important;
+}
+
 .btn:hover,
 .btn:focus{
   color: #fff;
   background-color: #98a20f;
+  -webkit-box-shadow:none;
+  box-shadow: none;
+  outline: none!important;
+}
+
+.btn-1:hover,
+.btn-1:focus{
+  color: #fff;
+  background-color: #8b940c;
   -webkit-box-shadow:none;
   box-shadow: none;
   outline: none!important;
@@ -344,6 +387,16 @@ label.error{
 .btn-gray{
   background-color: #f2f2f2;
   color: #a7a7a7;
+}
+
+.btn-gray-1{
+  background-color: #c9d51f;
+  color: #ffffff;
+}
+
+.btn-gray-2{
+  background-color: #c9d51f;
+  color: #ffffff;
 }
 
 .btn-shadow-1{
