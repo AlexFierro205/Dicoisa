@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
     <title>¿Quiénes Somos?</title>
 
     <!-- Favicons -->
@@ -15,7 +16,7 @@
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet" media="screen">
+    <link href="css/style_about.css" rel="stylesheet" media="screen">
 </head>
 
 <body>
@@ -46,25 +47,26 @@
             </div>
         </div>
     </div>
-
+    <!-- Header -->
     <header id="top" class="header-inner">
-        <div class="brand-panel">
+        <div class="brand-panel-sobren ">
             <a href="#" class="brand">
-                <span class="text-primary">DICOISA</span>
+                <div class="vertical-panel-sobre"></div>
             </a>
-            <div class="brand-name">DICOISA</div>
+
         </div>
         <div class="header-phone">+5357-1725 </div>
-        <div class="vertical-panel-content">
+        <div class="vertical-panel-content" style="padding-top: 60px">
             <div class="vertical-panel-info">
                 <div class="line"></div>
             </div>
+
             <ul class="social-list">
                 <li>
-                    <a href="" class="fa fa-instagram" ></a>
+                    <a href="" class="fa fa-instagram"></a>
                 </li>
                 <li>
-                    <a href="" class="fa fa-twitter" ></a>
+                    <a href="" class="fa fa-twitter"></a>
                 </li>
                 <li>
                     <a href="" class="fa fa-linkedin"></a>
@@ -74,94 +76,104 @@
                 </li>
             </ul>
         </div>
-
-        <!-- Navigation Desctop -->
-
-        <nav class="navbar-desctop visible-md visible-lg">
-            <div class="container">
-                <a href="#top" class="brand js-target-scroll">
-                    <span class="text-primary">DICOISA1</span>
-                </a>
-                <ul class="navbar-desctop-menu">
-                    <li>
-                        <a href="index.html">Inicio</a>
-                    </li>
-                    <li class="active">
-                        <a href="about.html">¿Quiénes Somos?</a>
-                    </li>
-                    <li>
-                        <a href="projects.html">Proyectos</a>
-                        <ul>
-                            <li><a href="projects.html">Projects - List</a></li>
-                            <li>
-                                <a href="project.html">Project - details</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="blog.html">Blog</a>
-                        <ul>
-                            <li><a href="blog.html">Blog - List</a></li>
-                            <li>
-                                <a href="blog-details.html">Blog - Post</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="contacts.html">Contactos</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-        <!-- Navigation Mobile -->
-
-        <nav class="navbar-mobile">
+        <div class="brand-panel-sobre">
             <a href="#top" class="brand js-target-scroll">
-                <span class="text-primary">DICOISA2</span>
-            </a>
+                <img alt="" class="img-responsive" src="img/log.png" style="width: 250px;">
 
-            <!-- Navbar Collapse -->
+                <!-- Navigation Desctop -->
 
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-mobile">
+                <nav class="navbar-desctop visible-md visible-lg">
+                    <div class="container">
+                        <a href="#top" class="brand js-target-scroll">
+                            <span class="text-primary">DICOISA</span>
+                        </a>
+                        <ul class="navbar-desctop-menu">
+                            <li>
+                                <a href="index.html">Inicio</a>
+                            </li>
+                            <li class="active">
+                                <a href="about.html">¿Quiénes Somos?</a>
+                            </li>
+                            <li>
+
+                                <a href="projects.html">Proyectos</a>
+                                <ul>
+                                    <li><a href="colorantes-hidrosolubles.html">Colorantes Hidrosolubles</a></li>
+                                    <li><a href="lacas-aluminicas.html">Lacas Alumínicas</a></li>
+                                    <li><a href="">Lacas Dispersadas</a></li>
+                                    <li><a href="">Colores Naturales</a></li>
+                                    <li><a href="">Auxiliares</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="blog.html">Servicios</a>
+                                <ul>
+                                    <li><a href="blog.html">Blog - List</a></li>
+                                    <li>
+                                        <a href="blog-details.html">Blog - Details</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="contacts.html">Contactos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+
+                <!-- Navigation Mobile -->
+
+                <nav class="navbar-mobile">
+                    <a href="#top" class="brand js-target-scroll">
+                    <span class="text-primary">DICOISA</span>
+                    </a>
+
+                    <!-- Navbar Collapse -->
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-mobile">
           <span class="sr-only">Toggle navigation </span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
 
-            <div class="collapse navbar-collapse" id="navbar-mobile">
-                <ul class="navbar-nav-mobile">
-                    <li>
-                        <a href="#">Inicio <i class="fa fa-angle-down"></i></a>
-                    </li>
-                    <li class="active">
-                        <a href="about.html">Nosotros</a>
-                    </li>
-                    <li>
-                        <a href="#">Proyectos <i class="fa fa-angle-down"></i></a>
-                        <ul>
-                            <li><a href="projects.html">Projects - List</a></li>
-                            <li>
-                                <a href="project.html">Project - Details</a>
+                    <div class="collapse navbar-collapse" id="navbar-mobile">
+                        <ul class="navbar-nav-mobile">
+                            <li class="active">
+                                <a href="#">Inicio <i class="fa fa-angle-down"></i></a>
                             </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Blog <i class="fa fa-angle-down"></i></a>
-                        <ul>
-                            <li><a href="blog.html">Blog - List</a></li>
                             <li>
-                                <a href="blog-details.html">Blog - Post</a>
+                                <a href="about.html">¿Quiénes Somos?</a>
                             </li>
+                            <li>
+                                <a href="#">Proyectos <i class="fa fa-angle-down"></i></a>
+                                <ul>
+                                    <li><a href="project.html">Lacas Aluminicas</a></li>
+                                    <li><a href="project.html">Lacas Dispersadas</a></li>
+                                    <li><a href="project.html">Colorantes Naturales</a></li>
+                                    <li><a href="project.html">Auxiliares</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Servicios <i class="fa fa-angle-down"></i></a>
+                                <ul>
+                                    <li><a href="blog.html">SERVICIOS - 1</a></li>
+                                    <li>
+                                        <a href="blog-details.html">SERVICIOS - 2</a>
+                                </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Contactos <i class="fa fa-angle-down"></i></a>
+                                    <ul>
+                                        <li><a href="contactos_compra.html">Compra</a></li>
+                                        <li><a href="contactos_venta.html">Venta</a></li>
+                                        <li><a href="contactos_info.html">Información</a></li>
+                                    </ul>
+                                </li>
                         </ul>
-                    </li>
-                    <li>
-                        <a href="contacts.html">Contactos</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+                    </div>
+                </nav>
     </header>
 
     <!-- Layout -->
@@ -170,7 +182,7 @@
 
         <!-- Home -->
 
-        <main class="main main-inner bg-about" data-stellar-background-ratio="0.6">
+        <main class="main main-inner main bg-about" data-stellar-background-ratio="0.6">
             <div class="container">
                 <header class="main-header">
                     <h1>Sobre Nosotros</h1>
@@ -202,7 +214,7 @@
             <section id="about" class="about section">
                 <div class="container">
                     <div class="entry">
-                        <h3 class="entry-title" style="text-align:center"> Dicoisa está comprometida con la Calidad y una mejora continua en todas sus áreas.<span class="text-primary">.</span></h3>
+                        <h3 class="entry-title" style="text-align:center"> Dicoisa está comprometida con la Calidad y una mejora continua en todas sus áreas.<span class="text-primary"></span></h3>
                         <p class="entry-text">Somos una Empresa dedicada al desarrollo de colorantes y productos químicos de alta calidad dirigidos principalmente a la industria de alimentos, así como a la industria del papel y cartón, textil, cuero, pinturas, tintas, plásticos,
                             limpieza y detergente. Asimismo brindamos la asesoría técnica a estas industrias, enfocada al desarrollo de nuevos productos, igualaciones de tonos y matices.</p>
                     </div>
@@ -220,29 +232,32 @@
                         <div class="row-services row-base row">
                             <div class="col-base col-service col-sm-6 col-md-4 wow fadeInUp">
                                 <div class="service-item">
-                                    <img alt="" src="img/img-icon/icon-architecture.png">
-                                    <h4>Política de calidad</h4>
-                                    <p>En grupo DYCBA brindamos productos y servicios de calidad, satisfaciendo las verdaderas necesidades de nuestros cliente a través de nuestro sistema integral de gestión de calidad, inocuidad, seguridad, higiene, medio
+                                    <div style="text-align:center;" >
+                                    <img src="img/img-icon/motivacion (1).png" ></div>
+                                    <h4 class="section-title">Política de calidad</h4>
+                                    <p class="jus-text">En grupo DYCBA brindamos productos y servicios de calidad, satisfaciendo las verdaderas necesidades de nuestros cliente a través de nuestro sistema integral de gestión de calidad, inocuidad, seguridad, higiene, medio
                                         ambiente y la mejora continua de nuestros procesos internos.</p>
                                 </div>
                             </div>
                             <div class="col-base col-service col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="service-item">
-                                    <img alt="" src="img/img-icon/icon-interiors.png">
-                                    <h4>Misión y Visión</h4>
-                                    <p>M : “Fabricar colorantes, pigmentos, productos Químicos y brindar servicios con calidad, basados en el entendimiento de la verdadera necesidad de nuestros clientes.”</p>
-                                    <p>V : “Para el 2025 ser una empresa reconocida dentro del top 5 en los mercados internacionales en los que participemos, con crecimiento e innovación sólidos.”</p>
+                                    <div style="text-align:center;" >
+                                    <img alt="" src="img/img-icon/vision.png"></div>
+                                    <h4 class="section-title">Misión y Visión</h4>
+                                    <p class="jus-text">M : “Fabricar colorantes, pigmentos, productos Químicos y brindar servicios con calidad, basados en el entendimiento de la verdadera necesidad de nuestros clientes.”</pclass>
+                                    <p class="jus-text">V : “Para el 2025 ser una empresa reconocida dentro del top 5 en los mercados internacionales en los que participemos, con crecimiento e innovación sólidos.”</pclass>
                                 </div>
                             </div>
                             <div class="clearfix visible-sm"></div>
                             <div class="col-base col-service col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.6s">
                                 <div class="service-item">
-                                    <img alt="" src="img/img-icon/icon-planing.png">
-                                    <h4>Valores</h4>
-                                    <p>• Honestidad. Con nuestros clientes y trabajadores.</p>
-                                    <p>• Trabajo en equipo: Laborar de una manera organizada, aprovechando el talento de nuestros colaboradores.</p>
-                                    <p>• Retar lo establecido: Superar desafíos ambiciosos para la mejora.</p>
-                                    <p> • Ética: La constante disciplina para la vida.</p>
+                                    <div style="text-align:center;" >
+                                    <img alt="" src="img/img-icon/valor.png"></div>
+                                    <h4 class="section-title">Valores</h4>
+                                    <p class="jus-text">•Honestidad. Con nuestros clientes y trabajadores.</p>
+                                    <p class="jus-text">•Trabajo en equipo: Laborar de una manera organizada, aprovechando el talento de nuestros colaboradores.</p>
+                                    <p class="jus-text">•Retar lo establecido: Superar desafíos ambiciosos para la mejora.</p>
+                                    <p class="jus-text">•Ética: La constante disciplina para la vida.</p>
                                 </div>
                             </div>
                         </div>
@@ -259,13 +274,65 @@
                         <p></p>
                         <p></p>
                         <p></p>
-                        <p>Dicoisa fue fundada en la Ciudad de México en el año de 1985, aparece por primera vez en el mercado ofreciendo colorantes.Tres años después de haber iniciado sus operaciones Dicoisa se establece en una de las naves industriales
+                        <p class="jus-text">Dicoisa fue fundada en la Ciudad de México en el año de 1985, aparece por primera vez en el mercado ofreciendo colorantes.Tres años después de haber iniciado sus operaciones Dicoisa se establece en una de las naves industriales
                             que actualmente ocupa, se localiza al norte de la Ciudad de México. Poco a poco Distribuidora y Convertidora Industrial fue ganándose la confianza de sus clientes, tanto nacionales como internacionales, a través del trabajo
-                            profesional y de alta calidad. </p>
-                        <p>Gracias al espíritu emprendedor y a la iniciativa de la gente con que cuenta Dicoisa fue creciendo tanto en recursos humanos como ampliando la línea de productos e infraestructura. A principios del año 2000 se empezó a construir
+                            profesional y de alta calidad. </pclass>
+                        <p class="jus-text">Gracias al espíritu emprendedor y a la iniciativa de la gente con que cuenta Dicoisa fue creciendo tanto en recursos humanos como ampliando la línea de productos e infraestructura. A principios del año 2000 se empezó a construir
                             lo que es hoy en día, el edificio de las oficinas corporativas de Dicoisa, ubicado en el parque industrial de Naucalpan, Estado de México.</p>
-                        <p>Actualmente, Dicoisa se encuentra bien consolidada gracias a la estrategia de negocios que ha adoptado en los últimos años, lo cual ha permitido hacer alianzas con Empresas extranjeras líderes en su ramo. El objetivo principal
+                        <p class="jus-text">Actualmente, Dicoisa se encuentra bien consolidada gracias a la estrategia de negocios que ha adoptado en los últimos años, lo cual ha permitido hacer alianzas con Empresas extranjeras líderes en su ramo. El objetivo principal
                             de la Empresa es brindar servicios de excelente calidad a sus clientes, a través de productos altamente confiables.</p>
+                            <div class="col-base col-service col-sm-offset-9 col-md-offset-0 wow fadeInUp ">
+                            <img src="img/projects/historia.jpg"  class="imagen">
+                            </div>
+                    </header>
+                
+                       <!-- Experience -->
+
+      <section class="experience section">
+        <div class="container">
+          
+          <h4 class="experience-info wow fadeInRight"><span class="text-primary"><h3 class="section-title-experience ">Brindar servicios de calidad a nuestros clientes, a traves de productos altamente cofiables </h3><div align="center "> <img src="img/projects/colorantes_img.jpg " width="300 " height="250 "> </span><br> Nuestro Lema</h4>
+        </div>
+      </section>
+
+            <!-- Services2 calidad -->
+
+            <section id="services" class="services section">
+                <div class="container">
+                    <header class="section-header">
+                        <h2 class="section-title"><span class="text-primary"></span>Compromisos</h2>
+                    </header>
+                    <div class="section-content">
+                        <div class="row-services row-base row">
+                            <div class="col-base col-service col-sm-6 col-md-4 wow fadeInUp">
+                                <div class="service-item">
+                                    
+                                    <h4 class="section-title">Compromiso de Calidad</h4>
+                                    <p class="jus-text">La calidad y la satisfaccion de nuestros clientes han sido siempre el centro de nuestra estrategia. Estamos determinados a mantener una relacion privilegiada con nuestros clientes y a proporcionales productos y servicios de alta calidad.</p>
+                                </div>
+                            </div>
+                            <div class="col-base col-service col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="service-item">
+                                    <h4 class="section-title">Compromiso Ambienteal</h4>
+                                    <p class="jus-text">En DICOISA estamos comprometidos a respetar y proteger el medio ambiente a traves de la adopcion de conductas preventivas para evitar el deterioro ambiental.</p>
+                                    <p class="jus-text">DICOISA es una competidora con la calidad y una mejora continua en todas sus areas.</p>
+                                </div>
+                            </div>
+                            <div class="clearfix visible-sm"></div>
+                            <div class="col-base col-about-img col-sm-6 col-md-4">
+                            <img alt="" class="img-responsive" src="img/projects/380x370.jpg">
+              </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- MAPA -->
+
+            <section id="objects" class="objects section">
+                <div class="container">
+                    <header class="section-header">
+                        <h2 class="section-title">ESTAMOS EN TODO <span class="text-primary2">EL MUNDO</span></h2>
                     </header>
                     <div class="section-content">
                         <div class="objects">
@@ -273,85 +340,42 @@
 
                             <!-- Objects -->
 
-                            <div class="object-label" style="left:12.6%; top:42%;">
+                            <div class="object-label" style="left:19%; top:51%;">
                                 <div class="object-info">
-                                    <h3 class="object-title">México</h3>
+                                    <h3 class="object-title">CDMX, México</h3>
                                     <div class="object-content">
-                                        +0 595-510-1352<br> flatley.don@weissnat.me
-                                        <br> 713 Dibbert Bridge
+                                        Tel : 00-00-00-00-00<br> Email : compras@dicoisa.com.mx<br> Direccion :<br> San Francisco 12,<br> San Jose de los Leones,<br> Primera Sec, 53569 <br> Naucalpan de Juárez, Méx.
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="object-label" style="left: 25.7%; top: 39.1%;">
+                            <div class="object-label" style="left:16.5%; top:48.5%;">
                                 <div class="object-info in">
-                                    <h3 class="object-title">México</h3>
+                                    <h3 class="object-title">Querètaro, México</h3>
                                     <div class="object-content">
-                                        +0 595-510-1352<br> flatley.don@weissnat.me
-                                        <br> 713 Dibbert Bridge
+                                        Tel : 00-00-00-00-00<br> Email: compras@dicoisa.com.mx<br> Direccion :<br> Carretera Querétaro,<br> Tequisquiapan 706,<br> Pedro Escobedo, Querétaro
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="object-label" style="left: 32.2%; top: 80.6%;">
+                            <div class="object-label" style="left: 25.5%; top: 68%;">
                                 <div class="object-info">
-                                    <h3 class="object-title">New York</h3>
+                                    <h3 class="object-title">Lima, Perú</h3>
                                     <div class="object-content">
-                                        +0 595-510-1352<br> flatley.don@weissnat.me
-                                        <br> 713 Dibbert Bridge
+                                        Tel : 00-00-00-00-00<br> Email: compras@dicoisa.com.mx<br> Direccion :<br> -------- <br> -------- ,<br> ------- , --------
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="object-label" style="left: 47.3%; top: 34.5%;">
+                            <div class="object-label" style="left: 77%; top: 45%;">
                                 <div class="object-info">
-                                    <h3 class="object-title">New York</h3>
+                                    <h3 class="object-title">Shanghai, China</h3>
                                     <div class="object-content">
-                                        +0 595-510-1352<br> flatley.don@weissnat.me
-                                        <br> 713 Dibbert Bridge
+                                        Tel : 00-00-00-00-00<br> Email: compras@dicoisa.com.mx<br> Direccion :<br> -------- <br> -------- ,<br> ------- , --------
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="object-label" style="left: 50.7%; top: 20.4%;">
-                                <div class="object-info">
-                                    <h3 class="object-title">New York</h3>
-                                    <div class="object-content">
-                                        +0 595-510-1352<br> flatley.don@weissnat.me
-                                        <br> 713 Dibbert Bridge
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="object-label" style="left: 64.4%; top: 22.4%;">
-                                <div class="object-info">
-                                    <h3 class="object-title">New York</h3>
-                                    <div class="object-content">
-                                        +0 595-510-1352<br> flatley.don@weissnat.me
-                                        <br> 713 Dibbert Bridge
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="object-label" style="left: 82.2%; top: 32.6%;">
-                                <div class="object-info">
-                                    <h3 class="object-title">New York</h3>
-                                    <div class="object-content">
-                                        +0 595-510-1352<br> flatley.don@weissnat.me
-                                        <br> 713 Dibbert Bridge
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="object-label" style="left: 84.4%; top: 82.3%;">
-                                <div class="object-info">
-                                    <h3 class="object-title">New York</h3>
-                                    <div class="object-content">
-                                        +0 595-510-1352<br> flatley.don@weissnat.me
-                                        <br> 713 Dibbert Bridge
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -362,42 +386,43 @@
             <section class="contacts section">
                 <div class="container">
                     <header class="section-header">
-                        <h2 class="section-title">Ponte en Contacto <span class="text-primary"></span></h2>
+                        <h2 class="section-title">PONTE EN <span class="text-primary2">CONTACTO</span></h2>
                     </header>
                     <div class="section-content">
                         <div class="row-base row">
                             <div class="col-address col-base col-md-4">
-                                Tel: 5357 1725 <br> Fax. 5357 1609<br> info@dicoisa.com.mx
-                                <br> USA, New York, 57 Quigley Bridge
+                                55-00-00-00-00<br> 55-00-00-00-00
+                                <br> compras@dicoisa.com.mx
+                                <br> Av. San Francisco, No. 12,<br>Col. San Francisco Cuautlalpan,<br>Naucalpan Edo. de México.
                             </div>
-                            <div class="col-base  col-md-8">
+                            <div class="col-base col-md-8">
                                 <form class="js-ajax-form">
                                     <div class="row-field row">
                                         <div class="col-field col-sm-6 col-md-4">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" name="name" placeholder="Nombre">
+                                                <input type="text" class="form-control" name="Nombre" placeholder="Nombre">
                                             </div>
                                             <div class="form-group">
-                                                <input type="email" class="form-control" name="email" required placeholder="Email *">
+                                                <input type="email" class="form-control" name="Email" required placeholder="Email *">
                                             </div>
                                         </div>
                                         <div class="col-field col-sm-6 col-md-4">
                                             <div class="form-group">
-                                                <input type="tel" class="form-control" name="phone" placeholder="Teléfono">
+                                                <input type="tel" class="form-control" name="Telefono" placeholder="Telefono">
                                             </div>
                                             <div class="form-group">
-                                                <input type="text" class="form-control" name="company" placeholder="Empresa/Organización">
+                                                <input type="text" class="form-control" name="Compañia" placeholder="Compañia">
                                             </div>
                                         </div>
                                         <div class="col-field col-sm-12 col-md-4">
                                             <div class="form-group">
-                                                <textarea class="form-control" name="message" placeholder="Mensaje"></textarea>
+                                                <textarea class="form-control" name="Mensaje" placeholder="Mensaje"></textarea>
                                             </div>
                                         </div>
                                         <div class="col-message col-field col-sm-12">
                                             <div class="form-group">
-                                                <div class="success-message"><i class="fa fa-check text-primary"></i> ¡Gracias!. Su mensaje se ha enviado correctamente...</div>
-                                                <div class="error-message">Lo sentimos, pero algo salió mal</div>
+                                                <div class="success-message"><i class="fa fa-check text-primary"></i>Gracias!. Su mensaje se ha enviado con exito...</div>
+                                                <div class="error-message">Lo siento!. Ha ocurrido un error.</div>
                                             </div>
                                         </div>
                                     </div>
@@ -420,17 +445,15 @@
               </a>
                         </div>
                         <div class="text-center-md col-base col-md-4">
-                            <a href="https://themeforest.net/user/murren20" class="author-link">
-                DICOISA
-              </a>
+                            <img class="center" class="img-responsive" src="img/cer.png" style="width: 180px;">
                         </div>
                         <div class="text-right-md col-base col-md-4">
-                            Dicoisa 2013 | Aviso de Privacidad
-
+                            © DICOISA 2023. Todos los derechos reservados.
                         </div>
                     </div>
                 </div>
             </footer>
+
 
             <!-- Lines -->
 
@@ -448,20 +471,20 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+            </div>
+            </div>
 
-    <!-- SCRIPTS -->
+            <!-- SCRIPTS -->
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.magnific-popup.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/interface.js"></script>
+            <script src="js/jquery.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/smoothscroll.js"></script>
+            <script src="js/jquery.validate.min.js"></script>
+            <script src="js/wow.min.js"></script>
+            <script src="js/jquery.stellar.min.js"></script>
+            <script src="js/jquery.magnific-popup.js"></script>
+            <script src="js/owl.carousel.min.js"></script>
+            <script src="js/interface.js"></script>
 </body>
 
 </html>
