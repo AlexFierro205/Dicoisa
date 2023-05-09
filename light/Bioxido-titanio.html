@@ -21,7 +21,7 @@
 <body>
 
   <!-- Loader -->
-
+|
   <div class="loader">
     <div class="page-lines">
       <div class="container">
@@ -50,23 +50,28 @@
   <!-- Header -->
 
   <header id="top" class="header-inner">
-    <div class="brand-panel">
+    <div class="brand-panel-contactosr">
       <a href="#" class="brand">
-        <span class="text-primary">DICOISA</span>
+        <div class="vertical-panel-contactos"></div>
       </a>
-      <div class="brand-name">DICOISA</div>
     </div>
-    <div class="header-phone">+7 (212) 674-25-10</div>
-    <div class="vertical-panel-content">
+    <div class="vertical-panel-content" style="padding-top: 60px">
       <div class="vertical-panel-info">
         <div class="line"></div>
       </div>
-      <ul class="social-list">
+      <ul class="social-list-contactos">
         <li><a href="" class="fa fa-instagram"></a></li>
         <li><a href="" class="fa fa-twitter"></a></li>
         <li><a href="" class="fa fa-linkedin"></a></li>
         <li><a href="" class="fa fa-facebook"></a></li>
       </ul>
+    </div>
+    <div class="brand-panel-contactos">
+      <a href="#top" class="brand js-target-scroll">
+        <img alt="" class="img-responsive" src="img/log.png" style="width: 250px;">
+
+      </a>
+      <div class="brand-name">DICOISA</div>
     </div>
 
     <!-- Navigation Desctop -->
@@ -84,26 +89,31 @@
             <a href="about.html">¿Quiénes Somos?</a>
           </li>
           <li class="active">
-            <a href="projects.html">Productos</a>
+            <a href="projects.html">Productos <i class="fa fa-angle-down"></i></a>
             <ul>
-              <li><a href="colorantes-hidrosolubles.html">Colorantes Hidrosolubles</a></li>
-              <li><a href="lacas-aluminicas.html">Lacas Alumínicas</a></li>
-              <li><a href="lacas-dispersas.html">Lacas Dispersadas</a></li>
-              <li><a href="colorantes-naturales.html">Colores Naturales</a></li>
+              <li><a href="Colorantes-lacas.html">Colorantes / Lacas</a></li>
               <li><a href="auxiliares.html">Auxiliares</a></li>
+              <li class="active"><a href="Bioxido-titanio.html">Bioxido de Titanio</a></li>
             </ul>
           </li>
           <li>
-            <a href="blog.html">Servicios</a>
+            <a href="servicios.html">Servicios <i class="fa fa-angle-down"></i> </a>
             <ul>
-              <li><a href="blog.html">Service Provider</a></li>
               <li>
-                <a href="blog-details.html">Detalles del servicio</a>
+                <a href="service provider.html">Service Provider</a>
+              </li>
+              <li>
+                <a href="maquilas.html">Maquilas</a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="contacts.html">Contacto</a>
+            <a href="#">Contactos <i class="fa fa-angle-down"></i></a>
+            <ul>
+              <li><a href="contactos_compra.html">Compra</a></li>
+              <li><a href="contactos_venta.html">Venta</a></li>
+              <li><a href="contactos_info.html">Información</a></li>
+            </ul>
           </li>
         </ul>
       </div>
@@ -119,7 +129,7 @@
       <!-- Navbar Collapse -->
 
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-mobile">
-        <span class="sr-only">Toggle navigation</span>
+        <span class="sr-only">Toggle navigation </span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -128,32 +138,37 @@
       <div class="collapse navbar-collapse" id="navbar-mobile">
         <ul class="navbar-nav-mobile">
           <li>
-            <a href="#">Inicio <i class="fa fa-angle-down"></i></a>
+            <a href="index.html">Inicio</a>
           </li>
           <li>
             <a href="about.html">¿Quiénes Somos?</a>
           </li>
           <li class="active">
-            <a href="#">Projects <i class="fa fa-angle-down"></i></a>
+            <a href="#">Productos <i class="fa fa-angle-down"></i></a>
             <ul>
-              <li><a href="colorantes-hidrosolubles.html">Colorantes Hidrosolubles</a></li>
-              <li><a href="lacas-aluminicas.html">Lacas Alumínicas</a></li>
-              <li><a href="lacas-dispersas.html">Lacas Dispersadas</a></li>
-              <li><a href="colorantes-naturales.html">Colores Naturales</a></li>
+              <li><a href="Colorantes-lacas.html">Colorantes / Lacas</a></li>
               <li><a href="auxiliares.html">Auxiliares</a></li>
+              <li class="active"><a href="Bioxido-titanio.html">Bioxido de Titanio</a></li>
             </ul>
           </li>
           <li>
-            <a href="blog.html">Servicios</a>
+            <a href="servicios.html">Servicios <i class="fa fa-angle-down"></i> </a>
             <ul>
-              <li><a href="blog.html">Service Provider</a></li>
               <li>
-                <a href="blog-details.html">Detalles del servicio</a>
+                <a href="service provider.html">Service Provider</a>
+              </li>
+              <li>
+                <a href="maquilas.html">Maquilas</a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="contacts.html">Contacts</a>
+            <a href="#">Contactos <i class="fa fa-angle-down"></i></a>
+            <ul>
+              <li><a href="contactos_compra.html">Compra</a></li>
+              <li><a href="contactos_venta.html">Venta</a></li>
+              <li><a href="contactos_info.html">Información</a></li>
+            </ul>
           </li>
         </ul>
       </div>
@@ -166,11 +181,11 @@
 
     <!-- Home -->
 
-    <main class="main main-inner main-project" style="background-image:url('img/bg/project.jpg');"
+    <main class="main main-inner main-project" style="background-image:url('img/bioxido\ de\ titanio-fondo.png');"
       data-stellar-background-ratio="0.6">
       <div class="container">
         <header class="main-header">
-          <h1>Lacas Alumínicas</h1>
+          <h1>Bioxido de Titanio</h1>
           <div class="project-title-info">
             <div class="project-info-item"><span class="text-primary"></span></div>
             <div class="project-info-item"><span class="text-primary"></span><sup></sup></div>
@@ -197,33 +212,62 @@
     </main>
 
     <div class="content">
+      <section id="services" class="services section">
+        <div class="container">
+          <header class="section-header">
+            <h2 class="section-title"><span class="text-primary"></span>Calidad</h2>
+          </header>
+          <div class="section-content">
+            <div class="row-services row-base row">
+              <div class="col-base col-about-img col-sm-6 col-md-4">
+                <img alt="" class="img-responsive" src="img/projects/bioxido-titanio/titanio.png">
+              </div>
+              <div class="col-base col-service col-sm-6 col-md-6 wow fadeInUp">
+                <div class="service-item">
 
+                  <h4 class="section-title">Lider nivel Latinoamerica</h4>
+                  <p class="jus-text">Nos especializamos en la producción de titanio de grado alimenticio, el cual es
+                    resistente a la corrosión y tiene una excelente resistencia mecánica. Nuestros productos son
+                    perfectos para su uso en la fabricación de equipos de procesamiento de alimentos, utensilios de
+                    cocina, y en otras aplicaciones que requieren un material resistente y duradero.
+                    <br>
+                    Nos enorgullece ofrecer a nuestros clientes productos de titanio de alta calidad, que cumplen con
+                    los más altos estándares de la industria. Además, nuestros expertos están siempre a disposición para
+                    brindarte asesoramiento personalizado y garantizarte la mejor solución para tus necesidades.
+                    <br>
+                    Además, contamos con un equipo altamente capacitado y comprometido con la excelencia en la
+                    producción y atención al cliente. Estamos comprometidos en ofrecer un servicio excepcional a
+                    nuestros clientes y nos aseguramos de cumplir con sus necesidades y expectativas.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="project-details">
         <div class="container">
           <div class="project-details-item">
             <div class="row">
               <div class="project-details-info wow fadeInLeft">
                 <h3 class="project-details-title">
-                Laca aluminica Amarrilo No. 5 <br>simple Concentración
+                  Bióxido de Titanio Grado Cosmético<br>1
                 </h3>
-                <p class="project-details-descr">Aplicaciones
-                  Productos que contienen aceites/grasas, y para
-                  productos que no contienen la suficiente humedad
-                  para disolver los colorantes.
-                  Productos alimenticios: panificación, confitería,
-                  productos lácteos, postres, condimentos.
+                <p class="project-details-descr">El dióxido de titanio (TiO2) es un compuesto inorgánico que se utiliza
+                  en diversas industrias, incluida la cosmética. El grado cosmético del dióxido de titanio se refiere a
+                  una forma purificada y tratada del compuesto que cumple con los estándares de calidad y seguridad para
+                  su uso en productos cosméticos.
+
+                  El dióxido de titanio se utiliza en productos cosméticos como protector solar, ya que ayuda a bloquear
+                  los rayos ultravioleta (UV) dañinos del sol. También se utiliza como pigmento blanco en cosméticos,
+                  como maquillaje, ya que ayuda a proporcionar una apariencia uniforme y brillante en la piel.
                   <br>
-                <table>
-                  <tr>
-                    <td><a href="docum/lacas_aluminicas/044LacaAluminicaAmarilloNo5SimpleConcentracion.pdf" class="btn-1 btn-gray-1"><i class="fa fa-file-pdf-o">- Hoja Tecnica</i></a></td>
-                    <td><a href="" class="btn-1 btn-gray-1"><i class="fa fa-file-archive-o">- Hoja de Seguridad</i></a>
-                    </td>
-                  </tr>
-                </table>
                 </p>
               </div>
               <div class="project-details-img col-md-8 col-md-offset-4">
-                <img alt="" class="img-responsive" src="img/projects/lacas-aluminicas/laca_amarillo.jpg">
+                <img alt="" class="img-responsive"
+                  src="img/projects/bioxido-titanio/Bióxido de Titanio Grado Cosmético.png">
               </div>
             </div>
           </div>
@@ -231,435 +275,63 @@
             <div class="row">
               <div class="project-details-info wow fadeInRight">
                 <h3 class="project-details-title">
-                  laca Alumínica no. 5<br>doble Concentración
+                  Bióxido de Titanio Grado USP<br>2
                 </h3>
-                <p class="project-details-descr">Este colorante artificial es detonante de muchas alergias y la causa
-                  común de muchos ataques agudos de asma. Además, se sospecha que provoca daños testiculares y tumores
-                  suprarrenales. <br><br>
-                <table>
-                  <tr>
-                    <td><a href="docum/lacas_aluminicas/045LacaAluminicaAmarilloNo5DobleConcentracion.pdf" class="btn-2 btn-gray-2"><i class="fa fa-file-pdf-o">- Hoja Tecnica</i></a></td>
-                    <td><a href="" class="btn-2 btn-gray-2"><i class="fa fa-file-archive-o">- Hoja de Seguridad</i></a>
-                    </td>
-                  </tr>
-                </table>
+                <p class="project-details-descr">es un polvo blanco utilizado en una variedad de aplicaciones,
+                  incluyendo la industria farmacéutica y alimentaria. Este compuesto químico es un pigmento blanco que
+                  se utiliza comúnmente como agente opacificante en cápsulas, tabletas, cremas y lociones, y otros
+                  productos cosméticos y farmacéuticos.
+
+                  El grado USP significa que el dióxido de titanio ha sido producido y procesado de acuerdo con los
+                  estándares establecidos por la Farmacopea de los Estados Unidos (USP), que es una organización que
+                  establece normas y directrices para la calidad y pureza de los productos farmacéuticos.
                 </p>
               </div>
               <div class="project-details-img col-md-8">
-                <img alt="" class="img-responsive" src="img/projects/lacas-aluminicas/laca_amarillo2.jpg">
-              </div>
-            </div>
-          </div>
-          <div class="project-details-item">
-            <div class="row">
-              <div class="project-details-info wow fadeInLeft">
-                <h3 class="project-details-title">
-                laca Alumínica no. 6 <br>simple Concentración
-                </h3>
-                <p class="project-details-descr">Productos farmacéuticos: agente colorante para
-                  cápsulas, tabletas revestidas y comprimidas.<br>
-                  Otras aplicaciones: cosméticos (labiales, lápices,
-                  lociones), empaques (películas plásticas, cubiertas
-                  cerosas), tintas, etc.
-                  <br>
-                <table>
-                  <tr>
-                    <td><a href="docum/lacas_aluminicas/046LacaAluminicaAmarilloNo6SimpleConcentracion.pdf" class="btn-1 btn-gray-1"><i class="fa fa-file-pdf-o">- Hoja Tecnica</i></a></td>
-                    <td><a href="" class="btn-1 btn-gray-1"><i class="fa fa-file-archive-o">- Hoja de Seguridad</i></a>
-                    </td>
-                  </tr>
-                </table>
-                </p>
-              </div>
-              <div class="project-details-img col-md-8 col-md-offset-4">
-                <img alt="" class="img-responsive" src="img/projects/lacas-aluminicas/laca_amarillo6simple.jpg">
-              </div>
-            </div>
-          </div>
-          <div class="project-details-item">
-            <div class="row">
-              <div class="project-details-info wow fadeInRight">
-                <h3 class="project-details-title">
-                  laca Alumínica no. 6<br>doble Concentración
-                </h3>
-                <p class="project-details-descr">Aplicaciones
-                  Productos que contienen aceites/grasas, y para
-                  productos que no contienen la suficiente humedad
-                  para disolver los colorantes.<br>
-                  Productos alimenticios: panificación, confitería,
-                  productos lácteos, postres, condimentos <br><br>
-                <table>
-                  <tr>
-                    <td><a href="docum/lacas_aluminicas/047LacaAluminicaAmarilloNo6DobleConcentracion.pdf" class="btn-2 btn-gray-2"><i class="fa fa-file-pdf-o">- Hoja Tecnica</i></a></td>
-                    <td><a href="" class="btn-2 btn-gray-2"><i class="fa fa-file-archive-o">- Hoja de Seguridad</i></a>
-                    </td>
-                  </tr>
-                </table>
-                </p>
-              </div>
-              <div class="project-details-img col-md-8">
-                <img alt="" class="img-responsive" src="img/projects/lacas-aluminicas/laca_amarillo3.jpg">
-              </div>
-            </div>
-          </div>
-          <div class="project-details-item">
-            <div class="row">
-              <div class="project-details-info wow fadeInLeft">
-                <h3 class="project-details-title">
-                  Laca alumínica amarillo no. 10<br> simple Concentración
-                </h3>
-                <p class="project-details-descr">Aplicaciones
-                  Productos que contienen aceites/grasas, y para
-                  productos que no contienen la suficiente humedad
-                  para disolver los colorantes. Productos farmacéuticos: agente colorante para
-                  cápsulas, tabletas revestidas y comprimidas.
-                  <br><br>
-                <table>
-                  <tr>
-                    <td><a href="docum/lacas_aluminicas/048LacaAluminicaAmarilloNo10SimpleConcentracion.pdf" class="btn-1 btn-gray-1"><i class="fa fa-file-pdf-o">- Hoja Tecnica</i></a></td>
-                    <td><a href="" class="btn-1 btn-gray-1"><i class="fa fa-file-archive-o">- Hoja de Seguridad</i></a>
-                    </td>
-                  </tr>
-                </table>
-                </p>
-              </div>
-              <div class="project-details-img col-md-8 col-md-offset-4">
-                <img alt="" class="img-responsive" src="img/projects/lacas-aluminicas/laca_amarillo4.jpg">
-              </div>
-            </div>
-          </div>
-          <div class="project-details-item">
-            <div class="row">
-              <div class="project-details-info wow fadeInRight">
-                <h3 class="project-details-title">
-                  Laca alumínica amarillo no. 10<br>doble Concentración
-                </h3>
-                <p class="project-details-descr">Aplicaciones
-                  Productos que contienen aceites/grasas, y para
-                  productos que no contienen la suficiente humedad
-                  para disolver los colorantes.<br>
-                  Productos alimenticios: panificación, confitería,
-                  productos lácteos, postres, condimentos<br><br>
-                <table>
-                  <tr>
-                    <td><a href="docum/lacas_aluminicas/049LacaAluminicaAmarilloNo10DobleConcentracion.pdf" class="btn-2 btn-gray-2"><i class="fa fa-file-pdf-o">- Hoja Tecnica</i></a></td>
-                    <td><a href="" class="btn-2 btn-gray-2"><i class="fa fa-file-archive-o">- Hoja de Seguridad</i></a>
-                    </td>
-                  </tr>
-                </table>
-                </p>
-              </div>
-              <div class="project-details-img col-md-8">
-                <img alt="" class="img-responsive" src="img/projects/lacas-aluminicas/amarillo10.jpg">
-              </div>
-            </div>
-          </div>
-          <div class="project-details-item">
-            <div class="row">
-              <div class="project-details-info wow fadeInLeft">
-                <h3 class="project-details-title">
-                  Laca alumínica Azul no. 1<br> simple Concentración
-                </h3>
-                <p class="project-details-descr">Aplicaciones
-                  Productos que contienen aceites/grasas, y para
-                  productos que no contienen la suficiente humedad
-                  para disolver los colorantes.<br>
-                  Productos alimenticios: panificación, confitería,
-                  productos lácteos, postres, condimentos.
-                  <br><br><br>
-                <table>
-                  <tr>
-                    <td><a href="docum/lacas_aluminicas/050LacaAluminicaAzulNo1SimpleConcentracion.pdf" class="btn-1 btn-gray-1"><i class="fa fa-file-pdf-o">- Hoja Tecnica</i></a></td>
-                    <td><a href="" class="btn-1 btn-gray-1"><i class="fa fa-file-archive-o">- Hoja de Seguridad</i></a>
-                    </td>
-                  </tr>
-                </table>
-                </p>
-              </div>
-              <div class="project-details-img col-md-8 col-md-offset-4">
-                <img alt="" class="img-responsive" src="img/projects/lacas-aluminicas/laca_azul (1).jpg">
-              </div>
-            </div>
-          </div>
-          <div class="project-details-item">
-            <div class="row">
-              <div class="project-details-info wow fadeInRight">
-                <h3 class="project-details-title">
-                  Laca alumínica Azul no. 1<br>doble Concentración
-                </h3>
-                <p class="project-details-descr">Pigmento preparado con Azul No. 1 (Azul Brillante
-                  FCF) en sustrato de hidróxido de aluminio.
-                  Propiedades sensoriales<br>
-                  Polvo fino homogéneo libre de impurezas y materia
-                  extraña color azul brillante.<br>
-                <table>
-                  <tr>
-                    <td><a href="docum/lacas_aluminicas/051LacaAluminicaAzulNo1DobleConcentracion.pdf" class="btn-2 btn-gray-2"><i class="fa fa-file-pdf-o">- Hoja Tecnica</i></a></td>
-                    <td><a href="" class="btn-2 btn-gray-2"><i class="fa fa-file-archive-o">- Hoja de Seguridad</i></a>
-                    </td>
-                  </tr>
-                </table>
-                </p>
-              </div>
-              <div class="project-details-img col-md-8">
-                <img alt="" class="img-responsive" src="img/projects/lacas-aluminicas/laca_azul (3).jpg">
-              </div>
-            </div>
-          </div>
-          <div class="project-details-item">
-            <div class="row">
-              <div class="project-details-info wow fadeInLeft">
-                <h3 class="project-details-title">
-                  Laca alumínica Azul no. 2<br>simple Concentración
-                </h3>
-                <p class="project-details-descr">Aplicaciones
-                  Productos que contienen aceites/grasas, y para
-                  productos que no contienen la suficiente humedad
-                  para disolver los colorantes.
-                  Productos alimenticios: panificación, confitería,
-                  productos lácteos, postres, condimentos.<br><br><br>
-                <table>
-                  <tr>
-                    <td><a href="docum/lacas_aluminicas/052LacaAluminicaAzulNo2SimpleConcentracion.pdf" class="btn-1 btn-gray-1"><i class="fa fa-file-pdf-o">- Hoja Tecnica</i></a></td>
-                    <td><a href="" class="btn-1 btn-gray-1"><i class="fa fa-file-archive-o">- Hoja de Seguridad</i></a>
-                    </td>
-                  </tr>
-                </table>
-                </p>
-              </div>
-              <div class="project-details-img col-md-8 col-md-offset-4">
-                <img alt="" class="img-responsive" src="img/projects/lacas-aluminicas/laca_azul (2).jpg">
-              </div>
-            </div>
-          </div>
-          <div class="project-details-item">
-            <div class="row">
-              <div class="project-details-info wow fadeInRight">
-                <h3 class="project-details-title">
-                  Laca alumínica Azul no. 2<br> doble Concentración
-                </h3>
-                <p class="project-details-descr">Pigmento preparado con Azul No. 2 (Azul Brillante
-                  FCF) en sustrato de hidróxido de aluminio.
-                  Propiedades sensoriales<br>
-                  Polvo fino homogéneo libre de impurezas y materia
-                  extraña color azul brillante.<br><br>
-                <table>
-                  <tr>
-                    <td><a href="docum/lacas_aluminicas/053LacaAluminicaAzulNo2DobleConcentracion.pdf" class="btn-2 btn-gray-2"><i class="fa fa-file-pdf-o">- Hoja Tecnica</i></a></td>
-                    <td><a href="" class="btn-2 btn-gray-2"><i class="fa fa-file-archive-o">- Hoja de Seguridad</i></a>
-                    </td>
-                  </tr>
-                </table>
-                </p>
-              </div>
-              <div class="project-details-img col-md-8">
-                <img alt="" class="img-responsive" src="img/projects/lacas-aluminicas/laca_azul (4).jpg">
-              </div>
-            </div>
-          </div>
-          <div class="project-details-item">
-            <div class="row">
-              <div class="project-details-info wow fadeInLeft">
-                <h3 class="project-details-title">
-                  Laca alumínica rojo no. 3<br>simple Concentración
-                </h3>
-                <p class="project-details-descr">Es un colorante azo que se utiliza en la elaboración de alimentos
-                  procesados, sin embargo, se encuentra asociado con hiperactividad y déficit de atención
-                  infantil.<br><br>
-                  <table>
-                    <tr>
-                      <td><a href="docum/lacas_aluminicas/054LacaAluminicaRojoNo3SimpleConcentracion.pdf" class="btn-1 btn-gray-1"><i class="fa fa-file-pdf-o">- Hoja Tecnica</i></a></td>
-                      <td><a href="" class="btn-1 btn-gray-1"><i class="fa fa-file-archive-o">- Hoja de Seguridad</i></a>
-                      </td>
-                    </tr>
-                  </table>
-                </p>
-              </div>
-              <div class="project-details-img col-md-8 col-md-offset-4">
-                <img alt="" class="img-responsive" src="img/projects/lacas-aluminicas/laca_rojo (6).jpg">
-              </div>
-            </div>
-          </div>
-          <div class="project-details-item">
-            <div class="row">
-              <div class="project-details-info wow fadeInRight">
-                <h3 class="project-details-title">
-                  Laca alumínica rojo no. 3<br> doble Concentración
-                </h3>
-                <p class="project-details-descr">un tipo especial de aditivo colorante preparado precipitando un colorante hidrosoluble en una base o sustrato insoluble aprobado. 
-                  En el caso de estas lacas, este sustrato es alúmina debido a que está aprobada por la Administración de Alimentos y Fármacos (FDA).<br><br>
-                <table>
-                  <tr>
-                    <td><a href="docum/lacas_aluminicas/054LacaAluminicaRojoNo3SimpleConcentracion (1).pdf" class="btn-2 btn-gray-2"><i class="fa fa-file-pdf-o">- Hoja Tecnica</i></a></td>
-                    <td><a href="" class="btn-2 btn-gray-2"><i class="fa fa-file-archive-o">- Hoja de Seguridad</i></a>
-                    </td>
-                  </tr>
-                </table>
-                </p>
-              </div>
-              <div class="project-details-img col-md-8">
-                <img alt="" class="img-responsive" src="img/projects/lacas-aluminicas/laca_rojo (1).jpg">
-              </div>
-            </div>
-          </div>
-          <div class="project-details-item">
-            <div class="row">
-              <div class="project-details-info wow fadeInLeft">
-                <h3 class="project-details-title">
-                  Laca alumínica rojo no. 5<br>simple Concentración
-                </h3>
-                <p class="project-details-descr">Pigmento preparado con Rojo No. 5 en sustrato de hidróxido de aluminio.
-                  Propiedades sensoriales
-                  Polvo fino homogéneo libre de impurezas y materia extraña color rojo.
-                  Función
-                  Pigmento.<br><br>
-                  <table>
-                    <tr>
-                      <td><a href="docum/lacas_aluminicas/056LacaAluminicaRojoNo5SimpleConcentracion.pdf" class="btn-1 btn-gray-1"><i class="fa fa-file-pdf-o">- Hoja Tecnica</i></a></td>
-                      <td><a href="" class="btn-1 btn-gray-1"><i class="fa fa-file-archive-o">- Hoja de Seguridad</i></a>
-                      </td>
-                    </tr>
-                  </table>
-                </p>
-              </div>
-              <div class="project-details-img col-md-8 col-md-offset-4">
-                <img alt="" class="img-responsive" src="img/projects/lacas-aluminicas/laca_rojo (2).jpg">
-              </div>
-            </div>
-          </div>
-          <div class="project-details-item">
-            <div class="row">
-              <div class="project-details-info wow fadeInRight">
-                <h3 class="project-details-title">
-                  Laca alumínica rojo no. 5<br> doble Concentración
-                </h3>
-                <p class="project-details-descr">Pigmento preparado con Rojo No. 5 (carmoísna) en sustrato de hidróxido de aluminio.
-                  Propiedades sensoriales
-                  Polvo fino homogéneo libre de impurezas y materia extraña color rojo.<br><br>
-                <table>
-                  <tr>
-                    <td><a href="docum/lacas_aluminicas/057LacaAluminicaRojoNo5DobleConcentracion.pdf" class="btn-2 btn-gray-2"><i class="fa fa-file-pdf-o">- Hoja Tecnica</i></a></td>
-                    <td><a href="" class="btn-2 btn-gray-2"><i class="fa fa-file-archive-o">- Hoja de Seguridad</i></a>
-                    </td>
-                  </tr>
-                </table>
-                </p>
-              </div>
-              <div class="project-details-img col-md-8">
-                <img alt="" class="img-responsive" src="img/projects/lacas-aluminicas/laca_rojo (3).jpg">
-              </div>
-            </div>
-          </div>
-          <div class="project-details-item">
-            <div class="row">
-              <div class="project-details-info wow fadeInLeft">
-                <h3 class="project-details-title">
-                  Laca alumínica rojo no. 6<br>simple Concentración
-                </h3>
-                <p class="project-details-descr">se encuentra dentro de la lista de colorantes artificiales autorizados para uso en la industria de los alimentos y recibe aplicaciones en la producción de panadería, 
-                  repostería de chocolate, postres y helados, dulces, jugos y bebidas, cereales y alimentación animal.<br>
-                   En esta ocasión hablaremos sobre algunas de las principales características de este colorante y sus recomendaciones de uso.
-                  <br><br>
-                  <table>
-                    <tr>
-                      <td><a href="docum/lacas_aluminicas/058LacaAluminicaRojoNo6SimpleConcentracion.pdf" class="btn-1 btn-gray-1"><i class="fa fa-file-pdf-o">- Hoja Tecnica</i></a></td>
-                      <td><a href="" class="btn-1 btn-gray-1"><i class="fa fa-file-archive-o">- Hoja de Seguridad</i></a>
-                      </td>
-                    </tr>
-                  </table>
-                </p>
-              </div>
-              <div class="project-details-img col-md-8 col-md-offset-4">
-                <img alt="" class="img-responsive" src="img/projects/lacas-aluminicas/laca_rojo (4).jpg">
-              </div>
-            </div>
-          </div>
-          <div class="project-details-item">
-            <div class="row">
-              <div class="project-details-info wow fadeInRight">
-                <h3 class="project-details-title">
-                  Laca alumínica rojo no. 6<br> doble Concentración
-                </h3>
-                <p class="project-details-descr">es un tipo de colorante sintético perteneciente al grupo de pigmentos Azo,
-                   al igual que otros como la tartrazina y la carmoisina. Este fue desarrollado para reemplazar el rojo Amaranto<br><br>
-                <table>
-                  <tr>
-                    <td><a href="docum/lacas_aluminicas/059LacaAluminicaRojoNo6DobleConcentracion.pdf" class="btn-2 btn-gray-2"><i class="fa fa-file-pdf-o">- Hoja Tecnica</i></a></td>
-                    <td><a href="" class="btn-2 btn-gray-2"><i class="fa fa-file-archive-o">- Hoja de Seguridad</i></a>
-                    </td>
-                  </tr>
-                </table>
-                </p>
-              </div>
-              <div class="project-details-img col-md-8">
-                <img alt="" class="img-responsive" src="img/projects/lacas-aluminicas/laca_rojo (5).jpg">
-              </div>
-            </div>
-          </div>
-          <div class="project-details-item">
-            <div class="row">
-              <div class="project-details-info wow fadeInLeft">
-                <h3 class="project-details-title">
-                  Laca alumínica rojo no. 40<br>doble Concentración
-                </h3>
-                <p class="project-details-descr">sEl Rojo allura AC es un colorante sintético de color rojo que se trata de un compuesto azoderivado.<br>
-                   Es una sal disódica que se presenta en forma de polvo rojizo oscuro muy soluble en agua.
-                  <br><br>
-                  <table>
-                    <tr>
-                      <td><a href="docum/lacas_aluminicas/060LacaAluminicaRojoNo40DobleConcentracion.pdf" class="btn-1 btn-gray-1"><i class="fa fa-file-pdf-o">- Hoja Tecnica</i></a></td>
-                      <td><a href="" class="btn-1 btn-gray-1"><i class="fa fa-file-archive-o">- Hoja de Seguridad</i></a>
-                      </td>
-                    </tr>
-                  </table>
-                </p>
-              </div>
-              <div class="project-details-img col-md-8 col-md-offset-4">
-                <img alt="" class="img-responsive" src="img/projects/lacas-aluminicas/laca_rojo (8).jpg">
+                <img alt="" class="img-responsive" src="img/projects/bioxido-titanio/Bióxido de Titanio Grado USP.png">
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- Footer -->
+    </div>
+    </section>
+    <!-- Footer -->
 
-      <footer id="footer" class="footer">
-        <div class="container">
-          <div class="row-base row">
-            <div class="col-base text-left-md col-md-4">
-              <a href="#" class="brand">
-                DICOISA
-              </a>
-            </div>
-            <div class="text-center-md col-base col-md-4">
-              <a href="https://themeforest.net/user/murren20" class="author-link">
-                by DICOISA
-              </a>
-            </div>
-            <div class="text-right-md col-base col-md-4">
-              ©DICOISA 2023. Derechos reservados.
-            </div>
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="row-base row">
+          <div class="col-base text-left-md col-md-4">
+            <a href="#" class="brand">
+              DICOISA <span class="text-primary"> </span>
+            </a>
           </div>
-        </div>
-      </footer>
-
-      <!-- Lines -->
-
-      <div class="page-lines">
-        <div class="container">
-          <div class="col-line col-xs-4">
-            <div class="line"></div>
+          <div class="text-center-md col-base col-md-4">
+            <img class="center" class="img-responsive" src="img/cer.png" style="width: 180px;">
           </div>
-          <div class="col-line col-xs-4">
-            <div class="line"></div>
-          </div>
-          <div class="col-line col-xs-4">
-            <div class="line"></div>
-            <div class="line"></div>
+          <div class="text-right-md col-base col-md-4">
+            © DICOISA 2023. Todos los derechos reservados.
           </div>
         </div>
       </div>
+    </footer>
+
+    <!-- Lines -->
+
+    <div class="page-lines">
+      <div class="container">
+        <div class="col-line col-xs-4">
+          <div class="line"></div>
+        </div>
+        <div class="col-line col-xs-4">
+          <div class="line"></div>
+        </div>
+        <div class="col-line col-xs-4">
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
     </div>
+  </div>
   </div>
 
   <!-- SCRIPTS -->
