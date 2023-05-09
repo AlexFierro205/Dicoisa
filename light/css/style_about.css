@@ -1436,7 +1436,7 @@ label.error {
 }
 
 .jus-text {
-    
+    text-align: center;
     text-align: justify;
 }
 
@@ -1476,7 +1476,8 @@ label.error {
 
 .row-services {
     margin-left: -4.1em;
-    margin-right: -4.1em;
+    margin-right: -3.1em;
+    text-align: center;
 }
 
 .col-service {
