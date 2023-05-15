@@ -2910,3 +2910,249 @@ img.mfp-img{
   }
  
 
+
+/* colorantes */
+
+.bodyc {
+  display: flex;
+  justify-content: center;
+   flex-wrap: wrap;
+   align-items: center;
+   min-height: 100vh;
+   }
+  
+  
+  .container-card{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 100px 50px;
+   padding: 100px 50px;
+   max-width: 100%;
+  }
+  
+  .container-card .card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+   width: 350px;
+   height: 300px;
+   background: #BBC612;
+   border-radius: 20px;
+   box-shadow: 0 35px 80px rgba(0,0,0,0.18);
+   transition: 0.5s;
+  }
+  
+  .container-card .card:hover{
+    height: 400px;
+  display: flex;
+    
+    
+  }
+  
+  .container-card .card .img8x{
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+    max-width: 100%;
+    
+  }
+  
+  .container-card .card:hover .img8x{
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(248, 8, 8, 0.2);
+    max-width: 100%;
+    
+  }
+  
+  .container-card .card .img8x img{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   max-width: 100%;
+   
+  }
+  
+  .container-card .card .content-card{
+    position: absolute;
+    top: 240px;
+    width: 100%;
+    padding: 0 30px;
+    height: 55px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+    max-width: 100%;
+    
+  }
+  
+  .container-card .card:hover .content-card{
+   top:130px;
+   height: 250px;
+   max-width: 100%;
+   
+  }
+  
+  .container-card .card .content-card h2{
+    background-color: #BBC612;
+    padding: 4.8em 3.1em 4.8em;
+    color:#fff;
+   
+  }
+  
+  .container-card .card .content-card p{
+    color:#fff;
+    max-width: 100%;
+    
+  }
+  
+  .container-card .card .content-card a{
+    position:relative; 
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    background: var(--clr);
+    color: #BBC612;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 8px;
+    max-width: 100%;
+    
+  }
+  
+  
+  
+  @media (min-width: 480px){
+  
+  
+    .img8x{
+     width: 100%;
+     height: 300px;
+     object-fit: cover;
+     object-position: bottom;
+   }
+  }
+  
+  
+  
+    .card{
+     display: flex;
+     flex-flow: wrap;
+     max-width: 100%;
+   }
+  
+  
+  
+   
+   
+   
+  
+  /* colorantes naturales */
+  
+  .bodyn{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+  
+  }
+  
+  
+  .cardnatural{
+    position: relative;
+    width: 300px;
+    height: 360px;
+    margin: 20px;
+  }
+  
+  .cardnatural .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+  }
+  
+  .cardnatural .front{
+    transform: perspective(600px) rotate(0deg);
+    box-shadow: 0 5px 10px #000;
+  }
+  
+  .cardnatural .front img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .cardnatural .front h3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+  }
+  
+  
+  
+  .cardnatural .back{
+    transform: perspective(600px) rotateY(180deg);
+    background: #BBC612;
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0,5px 10px #000;
+  }
+  
+  
+  
+  .cardnatural .back h3{
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+  
+  }
+  
+  .cardnatural .back p{
+    letter-spacing: 1px;
+  
+  }
+  
+  .cardnatural:hover .front{
+    transform: perspective(600px) rotateY(180deg);
+  
+  }
+  
+  .cardnatural:hover .back{
+    transform: perspective(600px) rotateY(360deg);
+  
+  }
+  
+  
+  
+  .jus-text {
+    text-align: center;
+    text-align: justify;
+  }
