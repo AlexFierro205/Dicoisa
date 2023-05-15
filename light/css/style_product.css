@@ -3126,6 +3126,15 @@ img.mfp-img{
     box-shadow: 0,5px 10px #000;
   }
   
+  .cardnatural .back .linknatural{
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+   }
+   
+   .cardnatural .back .linknatural a{
+    color: #f3f3f3;
+    }
   
   
   .cardnatural .back h3{
