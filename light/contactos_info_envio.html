@@ -21,6 +21,72 @@
 
 <body>
 
+  <style>
+    /* Estilos para la ventana emergente */
+    .popup-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    }
+
+    .popup-content {
+        background-color: #BBC612;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+        color: #333;
+    }
+
+    .popup-button {
+        background-color: #ffffff;
+        color: #b4b4b4;
+        padding: 5px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
+<script>
+    window.onload = function() {
+        // Función para mostrar la ventana emergente
+        function mostrarVentanaEmergente() {
+            // Crea los elementos de la ventana emergente
+            var popupContainer = document.createElement('div');
+            popupContainer.className = 'popup-container';
+
+            var popupContent = document.createElement('div');
+            popupContent.className = 'popup-content';
+            popupContent.innerHTML = '<h2 style="color: #ffffff;">Gracias !</h2><p style="color: #ffffff;">Su mensaje se ha enviado con exito...</p>';
+
+            var okButton = document.createElement('button');
+            okButton.innerText = 'Salir';
+            okButton.className = 'popup-button';
+
+            // Agrega el controlador de eventos al botón
+            okButton.addEventListener('click', function() {
+                // Redirecciona a otra página
+                window.location.href = 'contactos_info.html';
+            });
+
+            // Agrega los elementos a la página
+            popupContent.appendChild(okButton);
+            popupContainer.appendChild(popupContent);
+            document.body.appendChild(popupContainer);
+        }
+
+        // Llama a la función para mostrar la ventana emergente
+        mostrarVentanaEmergente();
+    };
+</script>
+
+
   <!-- Loader -->
 
   <div class="loader">
@@ -320,7 +386,7 @@
                     </div>
                   </div>
                   <div class="form-submit text-right"><button class="btn btn-shadow-2 wow swing">Enviar <i class="icon-next"></i></button></div>
-                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/light/contactos_info_envio.html">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/light/contactos_venta_envio.html">
                   <input type="hidden" name="_captcha" value="false">
                   <input type="hidden" name="_template" value="box">
                 </form>
