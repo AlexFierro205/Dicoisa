@@ -1592,6 +1592,7 @@ label.error {
     line-height: 2.6;
     color: #fff;
     padding: 0;
+    text-align: left;
 }
 
 .popover.top>.arrow {
@@ -2684,6 +2685,8 @@ img.mfp-img {
 
 
 img.bandera{
+    max-width: 100%;
+    width: 500px; 
     border-radius: 50px 20px;
     }
 
@@ -2844,7 +2847,7 @@ img.bandera{
             margin: 10px 0;
           }
         }
-=======
+
 /*prueba linea del tiempo*/
 
 .wrapper{
