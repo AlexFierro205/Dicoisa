@@ -1,169 +1,274 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="es">
+
 <head>
-<meta  charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="format-detection" content="telephone=no">
-<title>DICOISA</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <title>¿Quiénes Somos?</title>
 
-<!-- Favicons -->
-<link rel="shortcut icon" href="img/Dicoisa.png">
-<link rel="apple-touch-icon" href="img/Dicoisa.png">
-<link rel="apple-touch-icon" sizes="72x72" href="img/Dicoisa.png">
-<link rel="apple-touch-icon" sizes="114x114" href="img/Dicoisa.png">
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="img/Dicoisa.png">
+  <link rel="apple-touch-icon" href="img/Dicoisa.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/Dicoisa.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/Dicoisa.png">
 
-<!-- Styles -->
-<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet" media="screen">
+  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link href="css/style_contacts.css" rel="stylesheet" media="screen">
+
 </head>
-<body>
-  
-    <!-- Loader -->
+<style>
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
 
-    <div class="loader">
-      <div class="page-lines">
-        <div class="container">
-          <div class="col-line col-xs-4">
-            <div class="line"></div>
-          </div>
-          <div class="col-line col-xs-4">
-            <div class="line"></div>
-          </div>
-          <div class="col-line col-xs-4">
-            <div class="line"></div>
-            <div class="line"></div>
-          </div>
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff00;
+    min-width: 160px;
+    z-index: 1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #747474;
+  }
+</style>
+
+
+<body>
+
+  <!-- Loader -->
+
+  <div class="loader">
+    <div class="page-lines">
+      <div class="container">
+        <div class="col-line col-xs-4">
+          <div class="line"></div>
         </div>
-      </div>
-      <div class="loader-brand"> 
-        <div class="sk-folding-cube">
-          <div class="sk-cube1 sk-cube"></div>
-          <div class="sk-cube2 sk-cube"></div>
-          <div class="sk-cube4 sk-cube"></div>
-          <div class="sk-cube3 sk-cube"></div>
+        <div class="col-line col-xs-4">
+          <div class="line"></div>
+        </div>
+        <div class="col-line col-xs-4">
+          <div class="line"></div>
+          <div class="line"></div>
         </div>
       </div>
     </div>
-
-    <!-- Header -->
-    <header id="top" class="header-inner">
-      <div class="brand-panel-contactosr">
-        <a href="#" class="brand">
-          <div class="vertical-panel-contactos"></div>
-        </a>
+    <div class="loader-brand">
+      <div class="sk-folding-cube">
+        <div class="sk-cube1 sk-cube"></div>
+        <div class="sk-cube2 sk-cube"></div>
+        <div class="sk-cube4 sk-cube"></div>
+        <div class="sk-cube3 sk-cube"></div>
       </div>
-      <div class="vertical-panel-content" style="padding-top: 60px">
-        <div class="vertical-panel-info">
-          <div class="line"></div>
-        </div>
-        <ul class="social-list-contactos">
-          <li><a href="" class="fa fa-instagram"></a></li>
-          <li><a href="" class="fa fa-twitter"></a></li>
-          <li><a href="" class="fa fa-linkedin"></a></li>
-          <li><a href="" class="fa fa-facebook"></a></li>
+    </div>
+  </div>
+
+  <!-- Header -->
+
+  <header id="top" class="header-inner">
+    <div class="brand-panel-contactosr">
+      <a href="#" class="brand">
+        <div class="vertical-panel-contactos"></div>
+      </a>
+    </div>
+    <div class="vertical-panel-content" style="padding-top: 60px">
+      <div class="vertical-panel-info">
+        <div class="line"></div>
+      </div>
+      <ul class="social-list-contactos">
+        <li><a href="" class="fa fa-instagram"></a></li>
+        <li><a href="" class="fa fa-twitter"></a></li>
+        <li><a href="" class="fa fa-linkedin"></a></li>
+        <li><a href="" class="fa fa-facebook"></a></li>
+      </ul>
+    </div>
+    <div class="brand-panel-contactos">
+      <a href="#top" class="brand js-target-scroll">
+        <img alt="" class="img-responsive" src="img/log.png" style="width: 250px;">
+
+      </a>
+      <div class="brand-name">DICOISA</div>
+    </div>
+
+    <!-- Navigation Desctop -->
+
+    <nav class="navbar-desctop visible-md visible-lg">
+      <div class="container">
+        <a href="#top" class="brand js-target-scroll">
+          <img alt="" class="img-responsive" src="img/log4.png" style="width: 90px;">
+        </a>
+        <ul class="navbar-desctop-menu">
+          <li>
+            <div class="dropdown">
+              <a href="#" class="btn btn-gray">IDIOMA</a>
+              <div class="dropdown-content">
+                <a href="abouten.html" class="btn btn-gray">
+                  <img src="img/us.svg" alt="Inglés" style="vertical-align: middle; margin-right: 20px; width: 25%;">
+                  INGLES
+                </a>
+                <a href="about.html" class="btn btn-gray">
+                  <img src="img/mx.svg" alt="Español" style="vertical-align: middle; margin-right: 10px; width: 25%;">
+                  Español
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="index.html" style="margin-top: 10px;">Inicio</a>
+          </li>
+          <li >
+            <a href="about.html" style=" margin-top: 10px;">¿Quiénes Somos?</a>
+          </li>
+          <li>
+            <a href="productosyservicios.html" style="margin-top: 10px;">Productos y Servicios<i class="fa fa-angle-down"></i></a>
+            <ul>
+              <li>
+                <a href="Colorantes.html">Colorantes y Pigmentos</a>
+                <ul>
+                  <li>
+                    <a href="colorantessinteticos.html">Sintéticos</a>
+                  </li>
+                  <li>
+                    <a href="colorantesnaturales.html">Naturales</a>
+                  </li>
+                  <li><a href="Bioxido-titanio.html">Bioxido de titanio</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="auxiliares.html">Auxiliares</a>
+              </li>
+              <li>
+                <a href="maquilas.html">Maquilas</a>
+                <ul>
+                  <li><a href="maquilamolienda.html">Molienda</a></li>
+                  <li><a href="maquilamezclado.html">Mezclado</a></li>
+                  <li><a href="maquiladisper.html">Dispersion</a></li>
+                  <li><a href="maquilaenvasado.html">Envasado</a></li>
+                  <li><a href="maquilahomoge.html">Homogenización</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="service provider.html">Service-Provider</a>
+              </li>
+            </ul>
+          </li>
+          <li class="active">
+            <a href="#" style="margin-top: 10px;">Contactos <i class="fa fa-angle-down"></i></a>
+            <ul>
+              <li class="active"><a href="contactos_venta.html">Venta</a></li>
+              <li><a href="contactos_compra.html">Compra</a></li>
+              <li><a href="contactos_info.html">Información</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
-      <div class="brand-panel-contactos">
-        <a href="#top" class="brand js-target-scroll">
-          <img alt="" class="img-responsive" src="img/log.png" style="width: 250px;">
-  
-        </a>
-        <div class="brand-name">DICOISA</div>
+    </nav>
+
+    <!-- Navigation Mobile -->
+
+    <nav class="navbar-mobile">
+      <a href="#top" class="brand js-target-scroll">
+        <span class="text-primary">DICOISA</span>
+      </a>
+
+      
+      <!-- Navbar Collapse -->
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-mobile">
+        <span class="sr-only">Toggle navigation </span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar-mobile">
+        <ul class="navbar-nav-mobile">
+          <li style="text-align:center">
+            <div class="dropdown" >
+              <a href="#" class="btn btn-gray" >IDIOMA</a>
+              <div class="dropdown-content">
+                <a href="abouten.html" class="btn btn-gray">
+                  <img src="img/us.svg" alt="Inglés" style="vertical-align: middle; margin-right: 20px; width: 25%;">
+                  INGLES
+                </a>
+                <a href="about.html" class="btn btn-gray">
+                  <img src="img/mx.svg" alt="Español" style="vertical-align: middle; margin-right: 10px; width: 25%;">
+                  Español
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="index.html">Inicio</a>
+          </li>
+          <li >
+            <a href="about.html">¿Quiénes Somos?</a>
+          </li>
+          <li>
+            <a href="#">Productos y Servicios<i class="fa fa-angle-down"></i></a>
+            <ul>
+              <li class="active">
+                <a href="colorantes.html">Colorantes y Pigmentos<i class="fa fa-angle-down"></i></a>
+                <ul>
+                  <li><a href="colorantessinteticos.html">Sinteticos</a></li>
+                  <li><a href="colorantesnaturales.html">Naturales</a></li>
+                  <li><a href="Bioxido-titanio.html">Bioxido de Titanio</a></li>
+                </ul>
+              </li>
+              <li class="active">
+                <a href="auxiliares.html">Auxiliares</a>
+              </li>
+              <li class="active">
+                <a href="maquilas.html">Maquilas<i class="fa fa-angle-down"></i></a>
+                <ul>
+                  <li><a href="maquilamolienda.html">Molienda</a></li>
+                  <li><a href="maquilamezclado.html">Mezclado</a></li>
+                  <li><a href="maquiladisper.html">Dispersion</a></li>
+                  <li><a href="maquilaenvasado.html">Envasado</a></li>
+                  <li><a href="maquilahomoge.html">Homogenizaciones</a></li>
+                </ul>
+              </li>
+              <li class="active">
+                <a href="service provider.html">Service-Provider<i></i></a>
+              </li>
+            </ul>
+          </li>
+          <li class="active">
+            <a href="#">Contactos <i class="fa fa-angle-down"></i></a>
+            <ul>
+              <li class="active"><a href="contactos_venta.html">Venta</a></li>
+              <li><a href="contactos_compra.html">Compra</a></li>
+              <li><a href="contactos_info.html">Información</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
-  
-      <!-- Navigation Desctop -->
-  
-      <nav class="navbar-desctop visible-md visible-lg">
-        <div class="container">
-          <a href="#top" class="brand js-target-scroll">
-            <span class="text-primary">DICOISA</span>
-          </a>
-          <ul class="navbar-desctop-menu">
-            <li>
-              <a href="index.html">Inicio</a>
-          </li>
-          <li>
-              <a href="about.html">¿Quiénes Somos?</a>
-          </li>
-          <li>
-              <a href="productosyservicios.html">Productos y Servicios<i class="fa fa-angle-down"></i></a>
-              <ul>
-                  <li><a href="colorantes.html">Colorantes</a></li>
-                  <li><a href="auxiliares.html">Auxiliares</a></li>
-                  <li><a href="Bioxido-titanio.html">Bioxido de Titanio</a></li>
-                  <li><a href="maquilas.html">Maquilas</a></li>
-                  <li><a href="service provider.html">Service-provider</a></li>
-              </ul>
-          </li>
-          </li>
-          <li class="active">
-              <a href="#">Contactos <i class="fa fa-angle-down"></i></a>
-              <ul>
-                  <li class="active"><a href="contactos_venta.html">Venta</a></li>
-                  <li><a href="contactos_compra.html">Compra</a></li>
-                  <li><a href="contactos_info.html">Información</a></li>
-              </ul>
-          </li>
-          </ul>
-        </div>
-      </nav>
-  
-      <!-- Navigation Mobile -->
-  
-      <nav class="navbar-mobile">
-        <a href="#top" class="brand js-target-scroll">
-          <span class="text-primary">DICOISA</span>
-        </a>
-  
-        <!-- Navbar Collapse -->
-  
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-mobile">
-          <span class="sr-only">Toggle navigation </span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-  
-        <div class="collapse navbar-collapse" id="navbar-mobile">
-          <ul class="navbar-nav-mobile">
-            <li>
-              <a href="index.html">Inicio</a>
-          </li>
-          <li>
-              <a href="about.html">¿Quiénes Somos?</a>
-          </li>
-          <li>
-              <a href="productosyservicios.html">Productos y Servicios<i class="fa fa-angle-down"></i></a>
-              <ul>
-                  <li><a href="colorantes.html">Colorantes</a></li>
-                  <li><a href="auxiliares.html">Auxiliares</a></li>
-                  <li><a href="Bioxido-titanio.html">Bioxido de Titanio</a></li>
-                  <li><a href="maquilas.html">Maquilas</a></li>
-                  <li><a href="service provider.html">Service-provider</a></li>
-              </ul>
-          </li>
-          </li>
-          <li class="active">
-              <a href="#">Contactos <i class="fa fa-angle-down"></i></a>
-              <ul>
-                  <li class="active"><a href="contactos_venta.html">Venta</a></li>
-                  <li><a href="contactos_compra.html">Compra</a></li>
-                  <li><a href="contactos_info.html">Información</a></li>
-              </ul>
-          </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+    </nav>
+  </header>
 
   <!-- Layout -->
 
   <div class="layout">
-    
+
     <!-- Home -->
-    
-    <main class="main main-inner main-contacts bg-contacts" data-stellar-background-ratio="0.6">
+
+    <main class="main main-inner main-about bg-about" data-stellar-background-ratio="0.6" >
       <div class="container">
         <header class="main-header">
           <h1>CONTACTOS</h1>
@@ -189,42 +294,51 @@
       </div>
     </main>
 
+    <div class="content">
 
-    <div class="content">   
-    
+      <!-- Service Provider  -->
+
       <!-- About  -->
+        
+      
 
       <section class="contact-details">
-        <div class="col-map col-md-7">
-          <div id="map" class="gmap col-md-7"></div>
-        </div>
-        <div class="contact-info col-md-5 col-md-offset-7">
-          <div class="contact-info-content">
-            <div class="contact-info-title">CONTACTOS</div>
-            <div class="phone contact-row">
-              <i class="fa fa-phone"></i> 
-              <div class="contact-body">
-                <h4>Telefono</h4>
-                <div class="phone-row">55-53-57-17-25</div>
+        <div class="row">
+          <div class="col-md-7">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.828517493645!2d-99.2185726!3d19.462958900000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d203c1ded3db59%3A0xd8516d700b1d3f4b!2sDicoisa!5e0!3m2!1ses-419!2smx!4v1684704922809!5m2!1ses-419!2smx" width="100%" height="537" style="border:0; padding-right: 0px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="col-md-5.5">
+            <div class="contact-info-content">
+              <div class="contact-info-title">CONTACTOS</div>
+              <div class="phone contact-row">
+                <i class="fa fa-phone"></i> 
+                <div class="contact-body">
+                  <h4>Telefono</h4>
+                  <div class="phone-row">55-53-57-17-25</div>
+                </div>
               </div>
-            </div>
-            <div class="contact-row">
-              <i class="fa fa-envelope"></i> 
-              <div class="contact-body">
-                <h4>Email</h4>
-                <div class="contact-content">ventas@dicoisa.com.mx</div>
+              <div class="contact-row">
+                <i class="fa fa-envelope"></i> 
+                <div class="contact-body">
+                  <h4>Email</h4>
+                  <div class="contact-content">ventas@dicoisa.com.mx</div>
+                </div>
               </div>
-            </div>
-            <div class="contact-row">
-              <i class="fa fa-map-marker"></i> 
-              <div class="contact-body">
-                <h4>Dirección</h4>
-                <div class="contact-content">Pedro Escabedo,,<br> Carr. Querétaro-Tequisquiapan 706,<br> Pedro Escabedo, Qro.</div>
+              <div class="contact-row">
+                <i class="fa fa-map-marker"></i> 
+                <div class="contact-body">
+                  <h4>Dirección</h4>
+                  <div class="contact-content">Pedro Escabedo,,<br> Carr. Querétaro-Tequisquiapan 706,<br> Pedro Escabedo, Qro.</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+      
+      
+
+
 
       <!-- MAPA -->
 
@@ -246,7 +360,7 @@
                   <h3 class="object-title">Querètaro, México</h3>
                   <div class="object-content">
                     Tel : 55-53-57-17-25<br>
-                    Email: info@dicoisa.com.mx<br>
+                    Email: ventas@dicoisa.com.mx<br>
                     Direccion :<br> Pedro Escabedo,,<br> Carr. Querétaro-Tequisquiapan 706,<br> Pedro Escabedo, Qro.
                   </div>
                 </div>
@@ -275,8 +389,7 @@
         </div><Br /><Br />
       </section>
 
-      <!-- Contacts -->
-
+      
       <section class="contacts section">
         <div class="container">
           <header class="section-header">
@@ -284,6 +397,7 @@
           </header>
           <div class="section-content">
             <div class="row-base row">
+              <strong class="fade-title-left">CONTACTO</strong>
               <div class="col-address col-base col-md-4">
                 55-53-57-17-25<br>
                 ventas@dicoisa.com.mx<br>
@@ -331,75 +445,26 @@
         </div>
       </section>
 
+      <!-- Footer -->
 
-        <!-- Footer -->
-
-        <footer id="footer" class="footer">
-          <div class="container">
-            <div class="row-base row">
-              <div class="col-base text-left-md col-md-4">
-                <img alt="" class="img-responsive" src="img/log3.png" style="width: 260px;">
-
-              </div>
-              <div class="text-center-md col-base col-md-4">
-                <img class="center" class="img-responsive" src="img/cer.png" style="width: 180px;">
-              </div>
-              <div class="text-right-md col-base col-md-4">
-                © DICOISA 2023. Todos los derechos reservados.
-              </div>
-
-
-
-
-              <style>
-                .dropdown {
-                  position: relative;
-                  display: inline-block;
-                }
-                
-                .dropdown-content {
-                  display: none;
-                  position: absolute;
-                  background-color: #f9f9f9;
-                  min-width: 160px;
-                  z-index: 1;
-                }
-                
-                .dropdown:hover .dropdown-content {
-                  display: block;
-                }
-                
-                .dropdown-content a {
-                  color: rgb(255, 255, 255);
-                  padding: 12px 16px;
-                  text-decoration: none;
-                  display: block;
-                }
-                
-                .dropdown-content a:hover {
-                  background-color: #747474;
-                }
-                </style>
-                
-                <div class="section-content text-center">
-                  <div class="dropdown">
-                    <a href="#" class="btn btn-gray">IDIOMA</a>
-                    <div class="dropdown-content">
-                      <a href="abouten.html" class="btn btn-gray">
-                        <img src="img/us.svg" alt="Inglés" style="vertical-align: middle; margin-right: 20px; width: 25%;">
-                        INGLES
-                      </a>
-                      <a href="about.html" class="btn btn-gray">
-                        <img src="img/mx.svg" alt="Español" style="vertical-align: middle; margin-right: 10px; width: 25%;">
-                       Español
-                      </a>
-                    </div>
-                  </div>
-                </div>
+      <footer id="footer" class="footer">
+        <div class="container">
+          <div class="row-base row">
+            <div class="col-base text-left-md col-md-4">
+              <img alt="" class="img-responsive" src="img/log3.png" style="width: 260px; margin-left: 50px;">
 
             </div>
+            <div class="text-right-md col-base col-md-4" style="text-align:center"><Br><Br>
+              © DICOISA 2023. Todos los derechos reservados.<Br><a href="aviso.html" class="author-link">
+                by Dicoisa
+              </a>
+            </div>
+            <div class="text-center-md col-base col-md-4">
+              <img class="center" class="img-responsive" src="img/cert.jpg" style="width: 260px;">
+            </div>
           </div>
-        </footer>
+        </div>
+      </footer>
 
       <!-- Lines -->
 
@@ -420,17 +485,18 @@
     </div>
   </div>
 
-<!-- SCRIPTS -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/jquery.validate.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/jquery.stellar.min.js"></script>
-<script src="js/jquery.magnific-popup.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/interface.js"></script> 
-<script src="http://maps.google.com/maps/api/js?key=AIzaSyCEprRgdAfS753As69Wak04p2fvCzKbXQU"></script>
-<script src="js/gmap.js"></script> 
+  <!-- SCRIPTS -->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.magnific-popup.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/interface.js"></script>
+  <script src="js/idioma.js"></script>
 </body>
+
 </html>
